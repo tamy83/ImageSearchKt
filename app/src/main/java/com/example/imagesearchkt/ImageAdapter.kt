@@ -10,9 +10,7 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 
 class ImageAdapter : RecyclerView.Adapter<ImageAdapter.ViewHolder>() {
-
     private var images : List<Image> = ArrayList<Image>()
-
     fun setImages(images: List<Image>) {
         this.images = images
         for (image in images) {
